@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<style>
+    @font-face {
+        font-family: soupbros;
+        src: url(soupabros.ttf);
+    }
+    
+    body {
+        background-image: url('brickBlock.png');
+        background-size: 5%;
+        font-family: soupbros, Arial, sans-serif;
+    }
+    
+    .center {
+        display: block;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #title {
+        font-size: 75px;
+        color: #cec6ba;
+        border: 10px outset#e28e67;
+        font-family: soupbros, Arial, sans-serif;
+        top: 1px;
+        background-color: #c95e2d;
+        margin: 5px 750px;
+        height: 450px;
+    }
+    
+    #titleheader {
+        margin-top: 5px;
+    }
+    
+    #largemar {
+        width: 250px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    #largemar:hover {
+        opacity: 0.99;
+        width: 275px;
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+    
+    .maintext {
+        border-style: solid;
+        border-radius: 1px;
+        background-color: #ffffff;
+        font-size: 22px;
+        margin: 5px 100px;
+        text-align: left;
+    }
+    
+    .list {
+        font-size: 18px;
+    }
+    
+    .largetext {
+        font-size: 30px;
+    }
+</style>
+<html>
+
+<head>
+    <title>Mario (Click the man!)</title>
+    <link rel="icon" type="image/x-icon" href="mario_favicon.ico">
+</head>
+
+<body>
+    <Div id="title">
+        <h1 class="center" id="titleheader">Super<br>Mario</h1>
+    </Div>
+
+    <audio id="audioID " autoplay loop>
+        <source src="underwater_theme.mp3 "  type="audio/mp3 "> 
+    </audio>
+    <div>
+        <img class="center" id="largemar" src="https://www.freeiconspng.com/uploads/transparent-mario-game-hd-png-28.png " alt="Mario Jumping" onclick=" PlayStop(); " />
+    </div>
+    <script>
+        var myaudio = document.getElementById("audioID ");
+
+        function PlayStop() {
+            return myaudio.paused ? myaudio.play() : myaudio.pause();
+        };
+    </script>
+    <div class="center maintext">
+        <h2 class="center">About Mario</h2>The character, Mario, who 's official full name, unknown to most, is Mario Mario, has existed for a very long time. The first game he appeared in, <em>Donkey Kong</em>, which was released in 1981. <br> Since being introduced in
+        1981, he has made appearances in over 200 game titles, which include multiple genres and other types of sub-series. One of these genres is sports games, which includes these titles;
+        <ul class="list ">
+            <li><em>Mario Golf</em></li>
+            <li><em>Mario Tennis</em></li>
+            <li>And the multiple <em>Mario and Sonic at the Olympic games</em> titles</li>
+        </ul>And more!<br><br>Mario, Super Mario, Mario Mario, or whatever you would like to call him, has now, in this day and age, become a household name for both the children and adults which play games in his franchise. People from all around the world
+        know about Mario, his brother Luigi, Princess Peach, Bowser, and the other characters that are in his games.
+        <hr>
+        <h3 class="center">His Games</h3> Now, as stated before, Mario may have his own sports games, but those are not the key games of his franchise. The main Mario games are platformers. Games where you have to run and jump around to try to collect things, defeat enemys,
+        and, in Mario's case, by stomping on them, throwing fireballs at them, freezing them, you name it. Then, at the end of the levels, there is a goal that Mario has to get to before a time runs out, and when he reaches it, the level is over. You
+        traverse through levels upon levels, trying to get to a castle to save Mario's beloved Princess Peach, and save the Mushroom Kingdom. He has other genres of games other than sport games and platformer games as well, and the other most popular
+        one is the racing games.
+        <br><br> Out of all his games, here are the top 5 games in the Mario franchise, based off of how many copies of the game have been sold;
+        <ol reversed>
+            <li>
+                <a href="https://nintendo.fandom.com/wiki/New_Super_Mario_Bros._Wii"><img src="https://static.wikia.nocookie.net/nintendo/images/f/f3/New_Super_Mario_Bros._Wii_logo.svg/revision/latest/scale-to-width-down/100?cb=20160716233258&path-prefix=en" alt="NEW Super Mario Bros Wii">
+                </a> with <strong>30.32 Million</strong> sold
+            </li>
+            <li>
+                <a href="https://nintendo.fandom.com/wiki/New_Super_Mario_Bros."><img src="https://static.wikia.nocookie.net/nintendo/images/9/91/New_Super_Mario_Bros..svg/revision/latest/scale-to-width-down/100?cb=20160717004319&path-prefix=en" alt="NEW Super Mario Bros">
+                </a> with <strong>30.80 Million</strong> sold
+            </li>
+            <li>
+                <a href="https://nintendo.fandom.com/wiki/Mario_Kart_Wii"><img src="https://static.wikia.nocookie.net/nintendo/images/e/e7/Mario_Kart_Wii_logo.png/revision/latest/scale-to-width-down/100?cb=20190117032820&path-prefix=en" alt="Mario Kart Wii">
+                </a> with <strong>37.28 Million</strong> sold
+            </li>
+            <li>
+                <a href="https://nintendo.fandom.com/wiki/Super_Mario_Bros."><img src="https://static.wikia.nocookie.net/nintendo/images/e/ed/Super_Mario_Bros_Logo.png/revision/latest/scale-to-width-down/100?cb=20120522230938&path-prefix=en" alt="Super Mario Bros (Original)">
+                </a> with <strong>40.24 Million</strong> sold
+            </li>
+            <li>
+                <a href="https://mariokart8.nintendo.com/"><img src="https://static.wikia.nocookie.net/nintendo/images/7/78/Mario_Kart_8_Deluxe_logo.png/revision/latest/scale-to-width-down/100?cb=20170704162736&path-prefix=en" alt="Mario Kart 8 Deluxe">
+                </a> with <strong>43.35 Million</strong> sold
+            </li>
+        </ol><br>
+        <hr><br>
+        <p class="largetext"> So, now that you know some things about Mario and his games, how about getting together with some family/friends, getting your controllers ready, and <u>Let's-a-Go</u> play some Mario games to have a great, fun time!</p>
+    </div>
+</body>
+
+</html>
